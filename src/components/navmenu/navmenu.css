@@ -2,7 +2,7 @@
   background-color: rgb(2, 2, 51);
   color: white;
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   gap: 30px;
   padding: 5px;
   position: fixed;
