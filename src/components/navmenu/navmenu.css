@@ -1,0 +1,70 @@
+.nav{
+  background-color: rgb(2, 2, 51);
+  color: white;
+  display: flex;
+  justify-content: end;
+  gap: 30px;
+  padding: 5px;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+}
+
+.nav a{
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-right: 2rem;
+  opacity: 0;
+  animation: textTop .2s linear forwards;
+  animation-delay: calc(.2s * var(--i));
+  transition: .5s;
+}
+
+.nav a::after{
+  content: '';
+  height: 2px;
+  position: absolute;
+  width: 100%;
+  background: white;
+  left: 0;
+  bottom: -6px;
+  border-radius: 5px;
+  transform: scaleX(0);
+  transition: .5s;
+  transform-origin: left;
+}
+
+.nav a:hover::after, .nav a:focus::after{
+  transform: scaleX(1);
+}
+
+.nav a::before{
+  content: '';
+  height: 2px;
+  position: absolute;
+  width: 100%;
+  background: white;
+  left: 0;
+  bottom: 32px;
+  border-radius: 5px;
+  transform: scaleX(0);
+  transition: .5s;
+  transform-origin: right;
+}
+
+.nav a:hover::before, .nav a:focus::before{
+  transform: scaleX(1);
+}
+
+@keyframes textTop {
+  0%{
+    opacity: 1;
+    transform: translateY(50px);
+  }
+  100%{
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}

@@ -1,0 +1,79 @@
+.main{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.main p{
+    padding: 0;
+    margin: 0;
+    font-size: 1.3rem;
+}
+
+#name{
+    font-size: 2rem;
+    font-weight: 800;
+    padding: 0;
+    margin: 0;
+    animation: textRight .5s linear forwards;
+}
+
+img{
+    width: 25rem;
+    height: 25rem;
+    margin: 1rem;
+    margin-top: 2rem;
+    border-radius: 50%;
+    box-shadow: 0 0 0 pink, 0 0 10px pink, 0 0 20px pink, 0 0 30px pink, 0 0 40px pink, 0 0 80px pink;
+    animation: textRight .5s linear forwards;
+}
+
+#container #fieldValue{
+    font-size: 2.8rem;
+}
+
+#hello{    
+    animation: textLeft .5s linear forwards;
+}
+
+#remContent{
+    animation: textTop .5s linear forwards;
+}
+
+@keyframes textLeft {
+    0%{
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    100%{
+        opacity: 1;
+        margin-right: 0;
+        transform: translateX(0px);
+    }
+}
+
+@keyframes textRight {
+    0%{
+        opacity: 0;
+        transform: translateX(100px);
+    }
+    100%{
+        opacity: 1;
+        margin-right: 0;
+        transform: translateX(0px);
+    }
+}
+
+@keyframes textTop {
+    0%{
+        opacity: 0;
+        transform: translateY(100px);
+    }
+    100%{
+        opacity: 1;
+        margin-right: 0;
+        transform: translateY(0px);
+    }
+}
+

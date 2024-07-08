@@ -1,0 +1,33 @@
+.footer{
+    width: fit-content;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    margin: 10px;
+    transition: .2s;
+    text-decoration: none;
+    color: white;
+    opacity: 0;
+    animation: textRight .2s linear forwards;
+    animation-delay: calc(.2s * var(--i));
+}
+
+.footer a:hover{
+    color: rgb(91, 194, 235);
+    text-shadow: 0 0 5px white;
+}
+
+@keyframes textRight {
+    0%{
+        opacity: 0;
+        transform: translateX(100px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}

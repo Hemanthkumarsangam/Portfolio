@@ -1,0 +1,44 @@
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about p{
+    width: 45%;
+    font-size: 1.5rem;
+    color: white;
+    opacity: 0;
+    animation: .5s textRight linear forwards;
+}   
+
+.about img{
+    opacity: 0;
+    animation: .5s textLeft linear forwards;
+}
+
+@keyframes textLeft {
+    0%{
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    100%{
+        opacity: 1;
+        margin-right: 0;
+        transform: translateX(0px);
+    }
+}
+
+@keyframes textRight {
+    0%{
+        opacity: 0;
+        transform: translateX(100px);
+    }
+    100%{
+        opacity: 1;
+        margin-right: 0;
+        transform: translateX(0px);
+    }
+}
+
+
