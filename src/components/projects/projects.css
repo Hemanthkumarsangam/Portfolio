@@ -1,0 +1,51 @@
+.project{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    background: rgb(3, 3, 65);
+}
+
+.project h2{
+    color: white;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 6px;
+    text-shadow: 0 10px 20px pink,0 -10px 20px pink;
+} 
+
+.project img{
+    position: relative;
+    width: 100%;
+    border-radius: 25px;
+}
+
+.project .holder{
+    padding: 25px;
+    border-radius: 25px;
+    position: relative;
+}
+
+.project .holder a{
+    &:hover + .content{
+        transform: scaleY(1);
+    }
+}
+
+.project .holder .content{
+    position: absolute;
+    font-weight: 600;
+    font-size: large;
+    bottom: 4px;
+    color: white;
+    margin: 25px;
+    margin-left: 0;
+    background: rgba(0, 0, 0, 0.774);
+    transform: scaleY(0);
+    transform-origin: bottom;
+    transition: .5s;
+    &:hover{
+        transform: scaleY(1);
+    }
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}

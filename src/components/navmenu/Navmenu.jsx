@@ -8,10 +8,10 @@ function navmenu(){
                 <a href="#home" style={{ '--i': 1 }}>Home</a>
                 <a href="#about" style={{ '--i': 2 }}>About</a>
                 <a href="#skills" style={{ '--i': 3 }}>Skills</a>
-{/*                 <a href="#" style={{ '--i': 4 }}>Project</a>
-                <a href="#" style={{ '--i': 5 }}>Contact</a> */}
+                <a href="#project" style={{ '--i': 4 }}>Projects</a>
+                <a href="#" style={{ '--i': 5 }}>Contact</a>
             </div>
-            <br /><br /><br />
+            <br /><br />
         </>
     );
 }

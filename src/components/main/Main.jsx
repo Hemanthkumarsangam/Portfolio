@@ -21,12 +21,14 @@ function Main() {
                         speed={50}
                         repeat={Infinity} 
                         id='typeAnim'
-                    /> <br/> <br/> <br/>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit! <br/> Magni velit animi laudantium nulla ducimus.</p>
+                    /> <br/> <br/> 
+                    <p>I am a driven and innovative final-year Computer Science Engineering <br />
+                    student with a strong interest in web development....</p>
                 </div>
                 <Footer />
+                <a href="#about" ><button>More about me</button></a>
             </div>
-            <div><img src={require('../../images/me.png')} alt="hemanth" /></div>
+            <div><img src={require('../../images/me.png')} alt="Hemanth" /></div>
         </div>
     );
 }

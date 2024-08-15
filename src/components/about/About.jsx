@@ -7,8 +7,11 @@ function About() {
     <>
       <div className='about' id='about'>
         <img src={image} alt="" />
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius rerum repudiandae ipsa quasi rem accusamus, inventore eveniet quam, quo incidunt praesentium esse, delectus modi animi unde fuga tenetur. Exercitationem, quam.</p>
+        <p> I am a driven and innovative final-year Computer Science Engineering student with a strong interest in web development. 
+          I am eager to launch my career in a dynamic and rewarding environment where I can leverage my academic background,
+          problem-solving abilities, and creative thinking to contribute to organizational growth and success. </p>
       </div>
+      <br /><br />
     </>
   );
 }

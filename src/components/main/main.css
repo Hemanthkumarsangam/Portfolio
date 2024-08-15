@@ -19,7 +19,7 @@
     animation: textRight .5s linear forwards;
 }
 
-img{
+.main img{
     width: 25rem;
     height: 25rem;
     margin: 1rem;
@@ -39,6 +39,25 @@ img{
 
 #remContent{
     animation: textTop .5s linear forwards;
+}
+
+.main a{
+    text-decoration: none;
+    color: black;
+}
+
+.main button{
+    padding: 5px 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 1.2rem;
+    background: rgb(0, 127, 177);
+    box-shadow: 0 0 10px white;
+    transition-duration: .5s;
+    animation: textLeft .5s linear forwards;
+    &:hover{
+        transform: scale(1.2);
+    }
 }
 
 @keyframes textLeft {
