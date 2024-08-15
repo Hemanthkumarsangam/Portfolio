@@ -9,7 +9,7 @@ function navmenu(){
                 <a href="#about" style={{ '--i': 2 }}>About</a>
                 <a href="#skills" style={{ '--i': 3 }}>Skills</a>
                 <a href="#project" style={{ '--i': 4 }}>Projects</a>
-                <a href="#" style={{ '--i': 5 }}>Contact</a>
+                <a href="#home" style={{ '--i': 5 }}>Contact</a>
             </div>
             <br /><br />
         </>
