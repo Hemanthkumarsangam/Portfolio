@@ -22,7 +22,7 @@ function Main() {
                         repeat={Infinity} 
                         id='typeAnim'
                     /> <br/> <br/> 
-                    <p>I am a driven and innovative final-year Computer Science Engineering <br />
+                    <p>I am a self driven and innovative final-year Computer Science Engineering <br />
                     student with a strong interest in web development....</p>
                 </div>
                 <Footer />
